@@ -4,7 +4,7 @@ type Props = {
   image: string;
   name: string;
   onClick?: (name: string) => void;
-  dropped: boolean;
+  dropped?: boolean;
 };
 
 const Card = (props: Props) => {

@@ -1,124 +1,124 @@
 const animals = [
   {
     name: "Whale",
-    image: `whale.jpg`
+    image: `whale.jpg`,
   },
   {
     name: "Tiger",
-    image: `tiger.jpg`
+    image: `tiger.jpg`,
   },
   {
     name: "Dolphin",
-    image: `dolphin.jpg`
+    image: `dolphin.jpg`,
   },
   {
     name: "Okapi",
-    image: `okapi.jpeg`
+    image: `okapi.jpeg`,
   },
   {
     name: "Lemur",
-    image: `lemur.jpeg`
+    image: `lemur.jpeg`,
   },
   {
     name: "Lion",
-    image: `lion.jpeg`
+    image: `lion.jpeg`,
   },
   {
     name: "Eagle",
-    image: `eagle.jpeg`
+    image: `eagle.jpeg`,
   },
   {
     name: "Zebra",
-    image: `zebra.jpeg`
+    image: `zebra.jpeg`,
   },
   {
     name: "Cardinal",
-    image: `cardinal.jpeg`
+    image: `cardinal.jpeg`,
   },
   {
     name: "Chickadee",
-    image: `chickadee.jpeg`
+    image: `chickadee.jpeg`,
   },
   {
     name: "Giraffe",
-    image: `giraffe.jpeg`
+    image: `giraffe.jpeg`,
   },
   {
     name: "Pig",
-    image: `pig.jpeg`
+    image: `pig.jpeg`,
   },
   {
     name: "Komodo Dragon",
-    image: `komodo.jpeg`
+    image: `komodo.jpeg`,
   },
   {
     name: "Clownfish",
-    image: `clown-fish.jpeg`
+    image: `clown-fish.jpeg`,
   },
   {
     name: "Oyster",
-    image: `oyster.jpeg`
+    image: `oyster.jpeg`,
   },
   {
     name: "Lobster",
-    image: `lobster.png`
+    image: `lobster.jpg`,
   },
   {
     name: "Chicken",
-    image: `chicken.jpg`
+    image: `chicken.jpg`,
   },
   {
     name: "Cat",
-    image: `cat.jpg`
+    image: `cat.jpg`,
   },
   {
     name: "Dog",
-    image: `dog.jpg`
+    image: `dog.jpg`,
   },
   {
     name: "Horse",
-    image: `horse.jpg`
+    image: `horse.jpg`,
   },
   {
     name: "Mouse",
-    image: `mouse.jpg`
+    image: `mouse.jpg`,
   },
   {
     name: "Rabbit",
-    image: `rabbit.jpg`
+    image: `rabbit.jpg`,
   },
   {
     name: "Crocodile",
-    image: `crocodile.jpg`
+    image: `crocodile.jpg`,
   },
   {
     name: "Alligator",
-    image: `alligator.jpg`
+    image: `alligator.jpg`,
   },
   {
     name: "Turtle",
-    image: `turtle.jpg`
+    image: `turtle.jpg`,
   },
   {
     name: "Sunfish",
-    image: `sunfish.jpg`
+    image: `sunfish.jpg`,
   },
   {
     name: "Shark",
-    image: `shark.jpg`
+    image: `shark.jpg`,
   },
   {
     name: "Manatee",
-    image: `manatee.jpg`
+    image: `manatee.jpg`,
   },
   {
     name: "Bison",
-    image: `bison.jpg`
+    image: `bison.jpg`,
   },
   {
     name: "Flamingo",
-    image: `flamingo.jpg`
-  }
+    image: `flamingo.jpg`,
+  },
 ];
 
 export default animals;

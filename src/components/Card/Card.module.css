@@ -7,9 +7,10 @@
   aspect-ratio: 1 / 1.25;
   transform-origin: center center;
   transform-style: preserve-3d;
-  max-height: calc(20vh - 1rem);
-
+  height: calc(20vh - 1rem);
+  display: flex;
   font-size: clamp(0.6rem, 600px, 1rem);
+  text-align: center;
 }
 
 .Card__Inner,

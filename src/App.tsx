@@ -24,18 +24,25 @@ export default function App() {
     <div className={styles.App}>
       <div>
         <Card name={myCard.name} image={myCard.image} />
-        <button onClick={() => window.location.reload()}>New Game</button>
+        <button
+          onClick={() => window.location.reload()}
+          className={styles.NewGame}
+        >
+          New Game
+        </button>
       </div>
       <div className={styles.Cards}>
         {data.map((item) => {
           return (
-            <Card
-              name={item.name}
-              image={item.image}
-              key={item.name}
-              onClick={toggleCard}
-              dropped={dropped.indexOf(item.name) > -1}
-            />
+            <div className={styles.CardWrapper}>
+              <Card
+                name={item.name}
+                image={item.image}
+                key={item.name}
+                onClick={toggleCard}
+                dropped={dropped.indexOf(item.name) > -1}
+              />
+            </div>
           );
         })}
       </div>

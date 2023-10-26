@@ -9,3 +9,13 @@
   grid-row-gap: 1rem;
   grid-column-gap: 1rem;
 }
+
+.CardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewGame {
+  margin-top: 2rem;
+}
