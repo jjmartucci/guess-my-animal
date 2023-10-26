@@ -1,0 +1,44 @@
+.Card {
+  background-color: transparent;
+  border-radius: 8px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  transition: 0.8s;
+  position: relative;
+  aspect-ratio: 1 / 1.25;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  max-height: calc(20vh - 1rem);
+
+  font-size: clamp(0.6rem, 600px, 1rem);
+}
+
+.Card__Inner,
+.Card__BG {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Card__Inner {
+  background: #eee0cb;
+  color: #000;
+}
+
+.Card__BG {
+  transform: rotateY(180deg);
+  background: #839788;
+}
+
+.Card[data-dropped="true"] {
+  transform: rotateY(180deg);
+}
+
+.Card__Image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 80%;
+}
